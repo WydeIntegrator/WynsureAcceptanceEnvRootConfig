@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<config filename="wPortal.xml" filepath="(WYDE-ROOT)\Admin\">
+   <ServerUrl></ServerUrl>
+   <SMTP>
+      <SMTPSendUsingMethod default="cdoSendUsingPort" alt="cdoSendUsingPort">cdoSendUsingPort</SMTPSendUsingMethod>
+      <SMTPAuthenticate default="cdoBasic" alt1="cdoNTLM" alt="cdoAnonymous">cdoBasic</SMTPAuthenticate>
+      <SMTPServer></SMTPServer>
+      <SMTPServerPort></SMTPServerPort>
+      <SMTPConnectionTimeout>2</SMTPConnectionTimeout>
+      <SMTPSendUserName>########@##########.com</SMTPSendUserName>
+      <SMTPSendPassword>#######################</SMTPSendPassword>
+      <SMTPSendEmailAddress></SMTPSendEmailAddress>
+      <SMTPUseSSL default="false" alt="true">true</SMTPUseSSL>
+      <TokenExpirationDays>1</TokenExpirationDays>
+   </SMTP>
+   <UrlMapping>
+		<Pattern ServerPattern="/*" ClientPattern="/Reporting/Dev/FR/wPortal/*" />
+   </UrlMapping>
+   <DebugToolActivate>true</DebugToolActivate>
+   <DebugToolOptions>
+      <DebugField>0</DebugField>
+      <ShowSiteMap>1</ShowSiteMap>
+      <WebGL>1</WebGL>
+      <AutoConnect>0</AutoConnect>
+      <AutoConnectOptions>
+         <AutoConnectLogin>ann.barret@free.com</AutoConnectLogin>
+         <AutoConnectPassword>An872520et</AutoConnectPassword>
+      </AutoConnectOptions>
+   </DebugToolOptions>
+</config>

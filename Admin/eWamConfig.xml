@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<eWamConfig>
+<DatabaseDefinitions>
+	<!-- PostgreSQL DB dedicated to Dev on BIR team -->
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_AcceptanceFRDev">
+		<DataBaseName>WYN59_1_BIR_FR</DataBaseName>
+		<UserName>wydef59_1_bir_fr</UserName>
+		<Password>LOBcsmbXxE4=</Password>
+	</DatabaseDefinition>
+</DatabaseDefinitions>
+</eWamConfig>

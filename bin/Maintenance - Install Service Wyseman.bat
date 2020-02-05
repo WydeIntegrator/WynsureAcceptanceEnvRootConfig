@@ -1,0 +1,7 @@
+@ECHO OFF
+call "%~dp0WydeServer Set Env.bat"
+ECHO WYDESERVER-ROOT : %WYDESERVER-ROOT%
+start %WYDESERVER-ROOT%\wsmServer\wyseman /installservice /port:%WYDESERVER-PORT% /NETCONF:%WYDE-NETCONF% /AUTHENTIFIEDADMIN:FALSE
+PAUSE
+sc description WydeServiceManager%WYDESERVER-PORT% "%ENVTYPE%%VERSION%"
+PAUSE

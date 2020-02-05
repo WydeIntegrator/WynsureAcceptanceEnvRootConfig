@@ -1,0 +1,4 @@
+@call "%~dp0ewam set env.bat"
+@SET WYDESERVER-ROOT=%WYDE-ROOT%\WydeServer
+@SET WYDESERVER-PORT=45357
+@SET WYDE-NETCONF=%WYDE-ADMIN%\wnetconf.ini
